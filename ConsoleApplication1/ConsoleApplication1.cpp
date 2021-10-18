@@ -6,6 +6,12 @@
 int main()
 {
     std::cout << "Hello World!\n";
+
+    std::cout << "あなたの名前を入力して下さい\n";
+    std::string s;
+    std::cin >> s;
+
+    std::cout << "Hello " + s + "!\n";
 }
 
 // プログラムの実行: Ctrl + F5 または [デバッグ] > [デバッグなしで開始] メニュー
